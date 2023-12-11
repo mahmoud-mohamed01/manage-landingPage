@@ -1,0 +1,76 @@
+.About {
+  display: flex;
+  margin-left: 160px;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 10px;
+  background-image: url("../../Assets/images/bg-tablet-pattern.svg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
+.left-about {
+  flex-basis: 80%;
+}
+
+.left-about h1 {
+  font-size: 30px;
+  content: hsl(233, 12%, 13%);
+  font-weight: 700;
+}
+
+.left-about p {
+  color: hsl(227, 12%, 61%);
+  font-weight: 500;
+}
+
+.right-about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.right-about h2 {
+  display: inline;
+  color: hsl(233, 12%, 13%);
+}
+
+.right-about p {
+  max-width: 50%;
+  margin-top: 20px;
+  color: hsl(227, 12%, 61%);
+  font-weight: 500;
+}
+
+.right-about span {
+  color: white;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: hsl(12, 88%, 59%);
+  padding: 7px;
+}
+
+@media (max-width: 450px) {
+  .About {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-position: 90% -60%;
+    gap: 70px;
+  }
+
+  .right-about p {
+    max-width: 100%;
+  }
+
+  .right-about span {
+    margin-right: 0;
+  }
+
+  .right-about h2 {
+    background-color: hsl(13, 100%, 96%);
+    font-size: 20px;
+  }
+}
