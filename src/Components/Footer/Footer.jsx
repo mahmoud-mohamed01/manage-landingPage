@@ -20,19 +20,18 @@ function Footer() {
 
       <div className="links-box">
         <div className="link-list">
-          <h2>features</h2>
           <ul>
-            <li>Link shortening</li>
-            <li> Branded Links</li>
-            <li>Analytics</li>
+            <li>Home</li>
+            <li> Pricing</li>
+            <li>Products</li>
+            <li>About Us</li>
           </ul>
         </div>
         <div className="link-list">
-          <h2>Resources</h2>
           <ul>
-            <li>Blog</li>
-            <li>Developers</li>
-            <li> Support</li>
+            <li>Carrers</li>
+            <li>Community</li>
+            <li> Privacy Policy</li>
           </ul>
         </div>
       </div>
