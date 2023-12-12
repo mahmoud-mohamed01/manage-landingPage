@@ -17,19 +17,15 @@ footer {
 }
 .links-box {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 20px;
-  justify-content: center;
-}
-
-.link-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .link-list ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 .link-list ul li {
   font-size: 16px;
@@ -73,4 +69,8 @@ footer {
   footer {
     flex-direction: column;
   }
+  .links-box {
+    margin-left: 15%;
+  }
 }
+
